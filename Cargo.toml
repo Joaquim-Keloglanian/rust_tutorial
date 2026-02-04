@@ -1,0 +1,13 @@
+[workspace]
+resolver = "3"
+members = [
+    "ch02-00/guessing_game",
+    "ch03-00/branches",
+    "ch03-00/functions",
+    "ch03-00/loops",
+    "ch03-00/variables",
+    "ch04-00/ownership",
+    "ch04-00/reference",
+    "ch04-00/slice",
+    "rust",
+]

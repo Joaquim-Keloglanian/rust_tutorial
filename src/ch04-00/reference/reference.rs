@@ -1,4 +1,4 @@
-fn main() {
+fn reference() {
     let s1: String = String::from("Hello");
 
     let len: usize = calculate_length(&s1);

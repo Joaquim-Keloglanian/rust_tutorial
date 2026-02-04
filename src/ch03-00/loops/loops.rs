@@ -1,4 +1,4 @@
-fn main() {
+fn loops() {
     // basic_loop();
     // labeled_loops();
     // while_loop();
@@ -82,4 +82,3 @@ fn range_loop() {
     }
     println!("LIFTOFF!!!");
 }
-
