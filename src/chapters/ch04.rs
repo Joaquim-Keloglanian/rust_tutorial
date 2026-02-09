@@ -1,15 +1,15 @@
 pub mod ownership {
-    include!("../ch04-00/ownership/owernship.rs");
+  include!("../ch04-00/ownership/owernship.rs");
 
-    pub fn run() {
-        ownership();
-    }
+  pub fn run() {
+    ownership();
+  }
 }
 
 pub mod reference {
-    include!("../ch04-00/reference/reference.rs");
+  include!("../ch04-00/reference/reference.rs");
 
-    pub fn run() {
-        reference();
-    }
+  pub fn run() {
+    reference();
+  }
 }
