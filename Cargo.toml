@@ -5,3 +5,27 @@ edition = "2024"
 
 [dependencies]
 rand = "0.8"
+
+[[bin]]
+name = "ch02-guessing-game"
+path = "src/ch02-00/guessing_game/game.rs"
+
+[[bin]]
+name = "ch03-branches"
+path = "src/ch03-00/branches/branches.rs"
+
+[[bin]]
+name = "ch03-functions"
+path = "src/ch03-00/functions/functions.rs"
+
+[[bin]]
+name = "ch03-loops"
+path = "src/ch03-00/loops/loops.rs"
+
+[[bin]]
+name = "ch04-ownership"
+path = "src/ch04-00/ownership/owernship.rs"
+
+[[bin]]
+name = "ch04-reference"
+path = "src/ch04-00/reference/reference.rs"

@@ -1,9 +1,9 @@
-fn loops() {
-    // basic_loop();
-    // labeled_loops();
-    // while_loop();
-    // collections_loop();
-    // for_loop();
+fn main() {
+    basic_loop();
+    labeled_loops();
+    while_loop();
+    collections_loop();
+    for_loop();
     range_loop();
 }
 
@@ -69,7 +69,7 @@ fn collections_loop() {
 
 fn for_loop() {
     let array: [u32; 4] = [1, 2, 3, 4];
-    let mut index: usize = 0;
+    let _index: usize = 0;
 
     for element in array {
         println!("The value is: {element}");

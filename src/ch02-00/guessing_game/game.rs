@@ -1,12 +1,18 @@
 use rand::Rng;
 
-fn game() {
+fn main() {
     println!("Guess the number!");
 
     let secret_number: u32 = rand::thread_rng().gen_range(1..=100);
 
+    const ORANGE: &str = "\x1b[38;2;255;128;0m";
+    const GREEN: &str = "\x1b[38;2;0;255;0m";
+    const YELLOW: &str = "\x1b[38;2;255;255;0m";
+    const CYAN: &str = "\x1b[38;2;0;255;255m";
+    const RESET: &str = "\x1b[0m";
+
     loop {
-        println!("Please input your guess.");
+        println!("{YELLOW}Please input your guess.{RESET}");
 
         let mut guess: String = String::new();
 
@@ -22,10 +28,10 @@ fn game() {
         println!("You guessed: {guess}");
 
         match guess.cmp(&secret_number) {
-            std::cmp::Ordering::Less => println!("Too small!"),
-            std::cmp::Ordering::Greater => println!("Too big"),
+            std::cmp::Ordering::Less => println!("{CYAN}Too small!{RESET}"),
+            std::cmp::Ordering::Greater => println!("{ORANGE}Too big{RESET}"),
             std::cmp::Ordering::Equal => {
-                println!("You win!");
+                println!("{GREEN}You win!{RESET}");
                 break;
             }
         }

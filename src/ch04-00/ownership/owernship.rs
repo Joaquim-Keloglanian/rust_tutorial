@@ -1,4 +1,4 @@
-fn ownership() {
+fn main() {
     let s1: String = String::from("Hello, world! This is your boy, Skinny Penis!");
     let (s2, len): (String, usize) = calculate_length(s1);
 

@@ -1,4 +1,4 @@
-fn branches() {
+fn main() {
     let condition: bool = false;
     let number: i32 = if condition { 5 } else { 6 };
 
