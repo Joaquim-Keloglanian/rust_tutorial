@@ -1,0 +1,4 @@
+- [Rust Book](https://doc.rust-lang.org/book/)
+- [Rust Book Fork](https://rust-book.cs.brown.edu/)
+- [Rust By Example](https://doc.rust-lang.org/rust-by-example/)
+- [100 Exercises to learn Rust](https://rust-exercises.com/100-exercises/)
